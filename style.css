@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    
 }
 
 .cabecalho{
@@ -48,7 +47,7 @@ main h2 {
 
 
 .banner {
-    background: url(assets/imagens/fundo-teste.png);
+    background: url(assets/imagens/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,13 +101,14 @@ h1 {
     justify-content: center;
     gap: 8%;
     padding: 20px;
+    margin-top: 2%;
 }
 
 .card-1, .card-2 ,.card-3, .card-4, .card-5, .card-6 {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 350px;
+    
+    max-width: 350px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -116,6 +116,8 @@ h1 {
     border-radius: 85px;
     padding: 1%;
 }
+
+
 
 .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .card-6:hover {
     transform: scale(1.1);
@@ -138,31 +140,85 @@ h1 {
 
 .menor {
     width: 64%;  
+    min-width: 64%;
     margin: 0 auto; 
     text-align: center; 
-    margin-top: 2%;
+    margin-top: 4%;
+}
+
+.menor h1 {
+    padding-bottom: 1%;
 }
 
 .menor img {
     border-radius: 50px;
-    
+    border-style: solid;
+    border-color: #1B4C2C;
 }
 
 .sustentabilidade {
     text-align: center;
+    background-color: #1B4C2C;
+    margin-top: 4%;
+}
+
+.sustentabilidade h1 {
+    color: #FDF1E6;
+    padding: 20px;
+}
+
+.sustentabilidade h2 {
+    font-size: 30px;
+}
+
+.sustentabilidade p {
+    font-size: 16px;
 }
 
 .caixinha {
-    background-color: #1B4C2C;
     color: #FDF1E6;
     display: flex;
+    padding-top: 1%;
+    justify-content: center;
+    
 }
 
-.energia img {
-    width: 65%;
-    border-radius: 210%;
-    background-color: white;
+.energia, .feira, .agua {
+    width: 60%;
+    text-align: center;
+
 }
+
+.energia img, .feira img, .agua img{
+    max-width: 50%;
+}
+
+footer {
+    background-color: #1D5D2B;
+    margin-top: 10%;
+    color: #FDF1E6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 1%;
+    justify-content: space-evenly;
+}
+
+footer h2 {
+    font-size: 22px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -204,9 +260,9 @@ h1 {
     }
     
     .text button{
-        width: 100px;
-        height:35px;
-        font-size: 14px;
+        width: 200px;
+        height:55px;
+        font-size: 18px
     }
     .text h1 {
         transform: scale(90%);
@@ -224,13 +280,32 @@ h1 {
 
     .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
         margin-bottom: 20px;
-    
+        transform: scale(95%);
     }
 
-    .linha-1 img {
-        transform: scale(90%);
-
+    .caixinha {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     }
+
+    .agua, .energia, .feira {
+        transform: scale(96%);
+    }
+
+    footer {
+    flex-direction: column;
+    gap: 10px;
+   }
+
+   main h1 {
+    transform: scale(80%);
+   }
+
+   .menor {
+    width: 100%;
+   }
 }
+
 
 
