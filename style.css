@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.cabecalho{
+    color: white;
+    background-color: #1B4C2C;
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h3{
+    color: rgb(206, 206, 8);
+}
+
+.cabecalho h1 {
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color: #1B4C2C;
+    transition: color 1s ease;
+}
+
+main{
+    background-color: #FDF1E6;
+}
+
+main h1 {
+    font-weight: 700;
+}
+
+main p {
+    font-weight: 600;
+}
+
+main h2 {
+    font-weight: 700;
+}
+
+
+.banner {
+    background: url(assets/imagens/fundo-teste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text button {
+    border-radius:40px;
+    width: 180px;
+    height:50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #1B4C2C;
+    color: white;
+    gap: 2px;
+    font-size: 18px;
+    color: #FDF1E6;
+}
+
+.text button:hover {
+    cursor: pointer;
+    color: #FFFF;
+    
+} 
+
+h1 {
+    color: #1B4C2C;
+    font-size: 40px;
+}
+
+.text p {
+    color: #1D5D2B;
+    font-size: 23px;
+    padding-bottom: 1%;
+}
+
+.linha-1, .linha-2 {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    padding: 20px;
+}
+
+.card-1, .card-2 ,.card-3, .card-4, .card-5, .card-6 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.8s ease;
+    border-radius: 85px;
+    padding: 1%;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .card-6:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-1 img,.card-2 img,.card-3 img, .card-4 img, .card-5 img, .card-6 img {
+    width: 60%;
+}
+
+.linha-1 h2, .linha-2 h2 {
+    font-size: 25px;
+    color: #1B4C2C;
+}
+
+.linha-1 p, .linha-2 p {
+    font-size: 18px;
+    color: #1D5D2B;
+}
+
+.menor {
+    width: 64%;  
+    margin: 0 auto; 
+    text-align: center; 
+    margin-top: 2%;
+}
+
+.menor img {
+    border-radius: 50px;
+    
+}
+
+.sustentabilidade {
+    text-align: center;
+}
+
+.caixinha {
+    background-color: #1B4C2C;
+    color: #FDF1E6;
+    display: flex;
+}
+
+.energia img {
+    width: 65%;
+    border-radius: 210%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .text {
+        padding-top: 10px;
+        gap: 5px;
+    }
+    
+    .text button{
+        width: 100px;
+        height:35px;
+        font-size: 14px;
+    }
+    .text h1 {
+        transform: scale(90%);
+    }
+
+    .text p {
+        transform: scale(90%);
+    }
+
+    .linha-1, .linha-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
+        margin-bottom: 20px;
+    
+    }
+
+    .linha-1 img {
+        transform: scale(90%);
+
+    }
+}
+
+
