@@ -1,311 +1,357 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.cabecalho{
-    color: white;
-    background-color: #1B4C2C;
-    text-align: center;
-    padding: 30px;
+.cabecalho {
+  color: white;
+  background-color: #1b4c2c;
+  text-align: center;
+  padding: 30px;
 }
 
-.cabecalho h3{
-    color: rgb(206, 206, 8);
+.cabecalho h3 {
+  color: rgb(206, 206, 8);
 }
 
 .cabecalho h1 {
-    color: black;
+  color: black;
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
-.nav-link:hover{
-    color: #1B4C2C;
-    transition: color 1s ease;
+.nav-link:hover {
+  color: #1b4c2c;
+  transition: color 1s ease;
 }
 
-main{
-    background-color: #FDF1E6;
+main {
+  background-color: #fdf1e6;
 }
 
 main h1 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 main p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 main h2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
 .banner {
-    background: url(assets/imagens/fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
+  background: url(assets/imagens/fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 1%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1%;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.text button {
-    border-radius:40px;
-    width: 180px;
-    height:50px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: #1B4C2C;
-    color: white;
-    gap: 2px;
-    font-size: 18px;
-    color: #FDF1E6;
+button {
+  border-radius: 40px;
+  width: 180px;
+  height: 50px;
+  background-color: #1b4c2c;
+  color: white;
+  font-size: 18px;
+  color: #fdf1e6;
 }
 
 .text button:hover {
-    cursor: pointer;
-    color: #FFFF;
-    
-} 
+  cursor: pointer;
+  color: #ffff;
+}
 
 h1 {
-    color: #1B4C2C;
-    font-size: 40px;
+  color: #1b4c2c;
+  font-size: 40px;
 }
 
 .text p {
-    color: #1D5D2B;
-    font-size: 23px;
-    padding-bottom: 1%;
+  color: #1d5d2b;
+  font-size: 23px;
+  padding-bottom: 1%;
 }
 
-.linha-1, .linha-2 {
-    display: flex;
-    justify-content: center;
-    gap: 8%;
-    padding: 20px;
-    margin-top: 2%;
+.linha-1,
+.linha-2 {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  padding: 20px;
+  margin-top: 2%;
 }
 
-.card-1, .card-2 ,.card-3, .card-4, .card-5, .card-6 {
-    display: flex;
-    flex-direction: column;
-    
-    max-width: 350px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.8s ease;
-    border-radius: 85px;
-    padding: 1%;
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s ease;
+  border-radius: 85px;
+  padding: 1%;
 }
 
-
-
-.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .card-6:hover {
-    transform: scale(1.1);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.card-1 img,.card-2 img,.card-3 img, .card-4 img, .card-5 img, .card-6 img {
-    width: 60%;
+.card-1 img,
+.card-2 img,
+.card-3 img,
+.card-4 img,
+.card-5 img,
+.card-6 img {
+  width: 60%;
 }
 
-.linha-1 h2, .linha-2 h2 {
-    font-size: 25px;
-    color: #1B4C2C;
+.linha-1 h2,
+.linha-2 h2 {
+  font-size: 25px;
+  color: #1b4c2c;
 }
 
-.linha-1 p, .linha-2 p {
-    font-size: 18px;
-    color: #1D5D2B;
+.linha-1 p,
+.linha-2 p {
+  font-size: 18px;
+  color: #1d5d2b;
 }
 
 .menor {
-    width: 64%;  
-    min-width: 64%;
-    margin: 0 auto; 
-    text-align: center; 
-    margin-top: 4%;
+  width: 64%;
+  min-width: 64%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4%;
 }
 
 .menor h1 {
-    padding-bottom: 1%;
+  padding-bottom: 1%;
 }
 
 .menor img {
-    border-radius: 50px;
-    border-style: solid;
-    border-color: #1B4C2C;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #1b4c2c;
 }
 
 .sustentabilidade {
-    text-align: center;
-    background-color: #1B4C2C;
-    margin-top: 4%;
+  text-align: center;
+  background-color: #1b4c2c;
+  margin-top: 4%;
 }
 
 .sustentabilidade h1 {
-    color: #FDF1E6;
-    padding: 20px;
+  color: #fdf1e6;
+  padding: 20px;
 }
 
 .sustentabilidade h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .sustentabilidade p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .caixinha {
-    color: #FDF1E6;
-    display: flex;
-    padding-top: 1%;
-    justify-content: center;
-    
+  color: #fdf1e6;
+  display: flex;
+  padding-top: 1%;
+  justify-content: center;
 }
 
-.energia, .feira, .agua {
-    width: 60%;
-    text-align: center;
-
+.energia,
+.feira,
+.agua {
+  width: 60%;
+  text-align: center;
 }
 
-.energia img, .feira img, .agua img{
-    max-width: 50%;
+.energia img,
+.feira img,
+.agua img {
+  max-width: 50%;
+  object-fit: cover;
+}
+
+.filosofos {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.filosofos-box {
+  padding-top: 2%;
+}
+
+.card {
+  background-color: #dbcfc3;
+  border-radius: 200px;
 }
 
 footer {
-    background-color: #1D5D2B;
-    margin-top: 10%;
-    color: #FDF1E6;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-top: 1%;
-    justify-content: space-evenly;
+  background-color: #1d5d2b;
+  margin-top: 4%;
+  color: #fdf1e6;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 1%;
+  justify-content: space-evenly;
 }
 
 footer h2 {
-    font-size: 22px;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 footer p {
-    font-size: 15px;
+  font-size: 17px;
+  font-weight: 300;
 }
 
+.container {
+  margin-top: 2px;
+  text-align: center;
+}
 
+.container p {
+  color: #1b4c2c;
+  font-size: 18px;
+  font-weight: 600;
+}
 
+.container h5 {
+  color: #1b4c2c;
+  font-size: 26px;
+  font-weight: 700;
+}
 
+.container h2 {
+  font-size: 38px;
+  color: #1b4c2c;
+}
 
+.comeco {
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  padding: 2%;
+  
+}
 
+.comeco img {
+  width: 15%;
+  object-fit: cover;
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.textoo {
+  max-width: 600px;        
+  margin: 0 auto;          
+  text-align: center;      
+  color: #1b4c2c;            
+  font-size: 18px;
+}
 
 @media (max-width: 768px) {
-    .text {
-        padding-top: 10px;
-        gap: 5px;
-    }
-    
-    .text button{
-        width: 200px;
-        height:55px;
-        font-size: 18px
-    }
-    .text h1 {
-        transform: scale(90%);
-    }
+  .text {
+    padding-top: 10px;
+    gap: 5px;
+  }
 
-    .text p {
-        transform: scale(90%);
-    }
+  button {
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .text h1 {
+    transform: scale(80%);
+  }
 
-    .linha-1, .linha-2 {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+  .text p {
+    transform: scale(80%);
+  }
 
-    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6 {
-        margin-bottom: 20px;
-        transform: scale(95%);
-    }
-
-    .caixinha {
+  .linha-1,
+  .linha-2 {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    }
+  }
 
-    .agua, .energia, .feira {
-        transform: scale(96%);
-    }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    margin-bottom: 20px;
+    transform: scale(95%);
+  }
 
-    footer {
+  .caixinha {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .agua p,
+  .energia p,
+  .feira p {
+    transform: scale(95%);
+  }
+
+  footer {
     flex-direction: column;
     gap: 10px;
-   }
+  }
 
-   main h1 {
-    transform: scale(80%);
-   }
+  main h1 {
+    transform: scale(90%);
+  }
 
-   .menor {
+  .menor {
     width: 100%;
-   }
+  }
+
+  .textoo {
+    font-size: 17px;
+  }
+
+  .comeco img {
+    width: 40%;
+  }
+
 }
-
-
-
