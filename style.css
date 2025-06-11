@@ -64,7 +64,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.text button, .comeco button {
   border-radius: 40px;
   width: 180px;
   height: 50px;
@@ -73,6 +73,7 @@ button {
   font-size: 18px;
   color: #fdf1e6;
 }
+
 
 .text button:hover {
   cursor: pointer;
