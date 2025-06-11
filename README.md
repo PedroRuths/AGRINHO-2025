@@ -48,8 +48,11 @@ Leva o visitante ao rodapé da página, onde estão as informações
 * Bootstrap 
 * Pixel Art para elementos visuais
 * Organização por páginas temáticas
+## Como Rodar o Projeto
+* Clone ou faça o download do repositório e abra o arquivo index.html em um navegador da sua escolha.
+* Ou clique no link a seguir: (https://agrinho-2025-v6vg.vercel.app/index.html)
 ## Autor 
-Desenvolvido por Pedro como parte de um trabalho educacional integrado ao programa Agrinho 2025.
+Desenvolvido por Pedro Henrique Levandoski Ruths como parte de um trabalho educacional integrado ao programa Agrinho 2025.
 O projeto foi realizado com dedicação, criatividade e ferramentas modernas, com o intuito de promover o conhecimento e a valorização da relação entre o campo e a cidade.
 ### Licença
 Este projeto está licenciado sob a MIT License.
