@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+ 
 }
 
 .cabecalho {
@@ -239,6 +240,11 @@ footer h2 {
 
 footer p {
   font-size: 17px;
+  font-weight: 300;
+}
+
+footer a {
+  color: #dbcfc3;
   font-weight: 300;
 }
 
